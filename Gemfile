@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-ruby '2.0.0'
+ruby '2.1.2'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.4'
@@ -29,9 +29,12 @@ gem 'spring',        group: :development
 # Bootstrap gem
 gem 'bootstrap-sass'
 
-
+# gem to heroku
 gem 'pg',	group: :production
 gem 'rails_12factor',	group: :production
+
+# gem to user auth
+gem 'devise', '~> 3.2.4'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'

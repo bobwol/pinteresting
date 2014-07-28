@@ -34,4 +34,9 @@ Rails.application.configure do
 
   # Raises error for missing translations
   # config.action_view.raise_on_missing_translations = true
+
+  # Required for Heroku
+  # Note to set this to your actial host
+  config.action_mailer.default_url_options = { host: 'pinterails.herokuapp.com' }
+
 end
